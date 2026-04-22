@@ -1,6 +1,6 @@
-# code
+# Code
 module alu(input[1:0]a,b,input[2:0]sel,
-output reg[1:0]result,
+output reg[1:0] result,
 output reg carry);
 always @ (*) begin
 result =2'b00;
